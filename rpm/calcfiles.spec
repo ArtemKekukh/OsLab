@@ -15,7 +15,7 @@ calc_files.sh is a simple script that calculates the number of files in a direct
 
 %prep
 unzip %SOURCE0
-cd oslab-main/
+cd OsLab-main/
 
 %install
 mkdir -p %{buildroot}/usr/bin
