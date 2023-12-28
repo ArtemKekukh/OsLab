@@ -19,7 +19,7 @@ cd OsLab-main/
 
 %install
 mkdir -p %{buildroot}/usr/bin
-install -m 755 %{_builddir}/oslab-main/calc_files.sh %{buildroot}/usr/bin/calc_files
+install -m 755 /github/home/rpmbuild/BUILD/OsLab-main/calc_files.sh /github/home/rpmbuild/BUILDROOT/calcfiles-1.0-1.el7.x86_64/usr/bin/calc_files
 
 %files
 /usr/bin/calc_files
